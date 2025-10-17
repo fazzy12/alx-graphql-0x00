@@ -1,0 +1,17 @@
+# Fetches the second page of the character list
+query GetCharactersPage2 {
+  characters(page: 2) {
+    info {
+      count
+      pages
+      next
+      prev
+    }
+    results {
+      id
+      name
+      status
+      image
+    }
+  }
+}
