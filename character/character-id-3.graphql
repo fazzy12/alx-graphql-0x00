@@ -1,0 +1,11 @@
+# Fetches the details for character with ID 3 (Summer Smith)
+query GetCharacterDetails {
+  character(id: 3) {
+    id
+    name
+    status
+    species
+    type
+    gender
+  }
+}
