@@ -1,0 +1,9 @@
+# Fetches the details for episode with ID 1 (Pilot)
+query GetEpisodeDetails {
+  episode(id: 2) {
+    id
+    name
+    air_date
+    episode
+  }
+}
